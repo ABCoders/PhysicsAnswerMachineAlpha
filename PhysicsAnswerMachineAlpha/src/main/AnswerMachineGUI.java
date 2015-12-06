@@ -94,16 +94,4 @@ public class AnswerMachineGUI extends JPanel {
     } catch (NullPointerException e) {}
     this.setLayout(new GridLayout(3+inputs.size(),1));
   }
-  
-  public static void main(String []args) {
-    JFrame frame = new JFrame();
-    AnswerMachine model = new AnswerMachine();
-    AnswerMachineGUI view = new AnswerMachineGUI(model);
-    
-    frame.setContentPane(view);
-    frame.setVisible(true);
-    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    frame.setLocation(300,50);
-    frame.pack();
-  }
 }
