@@ -20,7 +20,7 @@ public class InputPane extends JPanel {
   
   public InputPane (AnswerMachine model, int index) {
     super();
-    this.model = model;
+    this.model = null;
     this.index = index;
     createComp();
     createPane();
