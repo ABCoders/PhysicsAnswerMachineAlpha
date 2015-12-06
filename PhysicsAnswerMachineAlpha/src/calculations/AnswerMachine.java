@@ -2,7 +2,7 @@ package calculations;
 
 import java.util.*;
 
-import layout.AnswerMachineGUI;
+import main.AnswerMachineGUI;
 
 public class AnswerMachine {
   public static final String[] UNITS = new String[] {"Kinematics", "Dynamics", "Circular Motion", 

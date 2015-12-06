@@ -1,4 +1,4 @@
-package layout;
+package main;
 
 import java.util.*;
 import java.util.Arrays;
@@ -8,6 +8,7 @@ import javax.swing.*;
 
 import calculations.AnswerMachine;
 import controllers.*;
+import layout.InputPane;
 
 /* To do List:
  * remove button removes proper inputPane
