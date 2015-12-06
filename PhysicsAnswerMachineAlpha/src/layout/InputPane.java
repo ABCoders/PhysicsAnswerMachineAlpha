@@ -35,6 +35,8 @@ public class InputPane extends JPanel {
     closeBtn.setSize(50,50);
   }
   
+  //hello
+  
   public void createPane() {
     this.add(inputVar);
     this.add(equals);
