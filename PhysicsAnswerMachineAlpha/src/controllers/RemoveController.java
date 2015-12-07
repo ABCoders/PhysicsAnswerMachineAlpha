@@ -4,7 +4,7 @@ package controllers;
 //import javax.swing.*;
 import java.awt.event.ActionListener;
 
-import calculations.AnswerMachine;
+import main.AnswerMachine;
 
 import java.awt.event.ActionEvent;
 

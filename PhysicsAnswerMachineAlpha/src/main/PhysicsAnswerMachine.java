@@ -2,11 +2,9 @@ package main;
 
 import javax.swing.JFrame;
 
-import calculations.AnswerMachine;
-
 public class PhysicsAnswerMachine {
 	public static void main(String[] args) {
-		JFrame frame = new JFrame();
+		JFrame frame = new JFrame("Physics Answer Machine");
 	    AnswerMachine model = new AnswerMachine();
 	    AnswerMachineGUI view = new AnswerMachineGUI(model);
 	    

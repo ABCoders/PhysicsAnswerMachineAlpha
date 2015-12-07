@@ -1,8 +1,10 @@
-package calculations;
+package main;
 
 import java.util.*;
 
-import main.AnswerMachineGUI;
+import calculations.Calculation;
+import calculations.DynamicsCalculation;
+import calculations.KinematicsCalculation;
 
 public class AnswerMachine {
   public static final String[] UNITS = new String[] {"Kinematics", "Dynamics", "Circular Motion", 

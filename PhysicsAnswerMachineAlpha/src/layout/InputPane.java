@@ -6,8 +6,8 @@ package layout;
 import java.awt.*;
 import javax.swing.*;
 
-import calculations.AnswerMachine;
 import controllers.RemoveController;
+import main.AnswerMachine;
 
 public class InputPane extends JPanel {
   private AnswerMachine model;

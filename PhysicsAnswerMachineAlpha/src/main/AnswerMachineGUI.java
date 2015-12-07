@@ -6,7 +6,6 @@ import java.util.Arrays;
 import java.awt.*;
 import javax.swing.*;
 
-import calculations.AnswerMachine;
 import controllers.*;
 import layout.InputPane;
 
