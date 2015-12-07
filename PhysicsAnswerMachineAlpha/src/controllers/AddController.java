@@ -10,14 +10,14 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
 public class AddController implements ActionListener{
-  private AnswerMachine model;
-  private InputPane input;
-  
-  public AddController(AnswerMachine model) {
-    this.model = model;
-  }
-  
-  public void actionPerformed(ActionEvent e) {
-    model.addInput();
-  }
+	private AnswerMachine model;
+	private InputPane input;
+
+	public AddController(AnswerMachine model) {
+		this.model = model;
+	}
+
+	public void actionPerformed(ActionEvent e) {
+		model.addInput();
+	}
 }
